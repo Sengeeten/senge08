@@ -9,6 +9,8 @@
 .test {
 }
 .name {
+    width: 100%;
+    height: auto;
 }
 .box01 {
     background-color: #FFFFFF;
@@ -53,11 +55,11 @@
     padding-bottom: auto;
     padding-top: auto;
     padding-right: auto;
-    padding-left: 10%;
-    text-align: justify;
+    padding-left: auto;
     min-height: 100%;
     max-height: 80%;
     min-width: 80%;
+    text-align: justify;
 }
 
 }
