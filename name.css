@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+
+
+
+/*Mobile Device*/
+@media (max-width:380px){
+.test {
+}
+.name {
+}
+.box01 {
+    background-color: #FFFFFF;
+    color: #070707;
+    font-size: 15px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    width: 80%;
+    margin-right: auto;
+    padding-right: auto;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    min-width: 80%;
+    margin-top: auto;
+    padding-bottom: auto;
+    height: 100%;
+    padding-left: 10%;
+    text-align: justify;
+    max-height: auto;
+    margin-bottom: 10px;
+}
+
+
+/*Tablet View*/
+}
+@media (min-width:380px) and (max-width:950px){
+.box01  {
+    background-color: #FFFFFF;
+    color: #070707;
+    font-size: 15px;
+    width: 80%;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    max-width: 80%;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-bottom: auto;
+    padding-top: auto;
+    padding-right: auto;
+    padding-left: 10%;
+    text-align: justify;
+    min-height: 100%;
+    max-height: 80%;
+    min-width: 80%;
+}
+
+}
+
+
+
+
+
+/*Desktop View*/
+@media (min-width:950px){
+.name .box01 {
+    max-width: 1200px;
+    background-color: #FFFFFF;
+    color: #0D0C0D;
+    font-size: 15px;
+    width: 80%;
+    min-width: 80%;
+    min-height: 100%;
+    max-height: 80%;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    float: none;
+    clear: both;
+    
+    
+}
+
+}
+.name {
+}
