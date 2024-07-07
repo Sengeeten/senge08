@@ -9,8 +9,6 @@
 .test {
 }
 .name {
-    width: 100%;
-    height: auto;
 }
 .box01 {
     background-color: #FFFFFF;
@@ -18,7 +16,7 @@
     font-size: 15px;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     width: 80%;
-    margin-right: auto;
+    margin-right: 0px;
     padding-right: auto;
     background-position: 100% 100%;
     background-size: 100% 100%;
@@ -27,13 +25,11 @@
     margin-left: auto;
     max-width: 80%;
     min-width: 80%;
-    margin-top: auto;
-    padding-bottom: auto;
-    height: 100%;
-    padding-left: 10%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 80%;
+    padding-left: auto;
     text-align: justify;
-    max-height: auto;
-    margin-bottom: 10px;
 }
 
 
@@ -56,10 +52,9 @@
     padding-top: auto;
     padding-right: auto;
     padding-left: auto;
-    min-height: 100%;
-    max-height: 80%;
-    min-width: 80%;
     text-align: justify;
+    height: auto;
+    min-width: 80%;
 }
 
 }
@@ -76,24 +71,23 @@
     color: #0D0C0D;
     font-size: 15px;
     width: 80%;
-    min-width: 80%;
-    min-height: 100%;
-    max-height: 80%;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     background-position: 100% 100%;
     background-size: 100% 100%;
     margin-top: 10px;
     margin-right: auto;
-    margin-left: 10%;
+    margin-left: auto;
     padding-top: 10px;
     padding-bottom: 0px;
     padding-right: 10px;
     padding-left: 10px;
     text-align: justify;
+    left: auto;
     float: none;
     clear: both;
-    
-    
+    height: auto;
+    min-width: 80%;
+    min-height: 80%;
 }
 
 }
